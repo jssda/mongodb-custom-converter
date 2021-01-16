@@ -1,0 +1,10 @@
+spring:
+  data:
+
+    # mongodb 链接配置
+    mongodb:
+      uri: mongodb://xxx.打码中.xxx.1:27017/test
+logging:
+  level:
+    root: info
+    pers.jssd.mongodblearning.*: debug
